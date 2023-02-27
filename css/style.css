@@ -18,8 +18,9 @@ main{
 header, #footer-bot, .lip-bg-dark-grey, #main-nav{
     background-color: var(--dark-gray);
 }
-#hero, #about{
+#hero, #about, .bg-aqua{
     background-color: var(--aqua);
+    color: white;
 }
 #portfolio, #contact{
     background-color: var(--white);
@@ -71,7 +72,11 @@ header .container .navbar-toggler{
     border: 1px solid white;
     color: white;
 }
-
+/* contact */
+#contact form input,#contact form textarea{
+    border: 0px;
+    font-weight: 600;
+}
 
 
 
