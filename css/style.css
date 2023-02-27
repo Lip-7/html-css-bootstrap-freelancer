@@ -23,6 +23,7 @@ header, #footer-bot, .lip-bg-dark-grey, #main-nav{
 }
 #portfolio, #contact{
     background-color: var(--white);
+    color: var(--black);
 }
 #footer-top{
     background-color: var(--light-gray);
@@ -59,8 +60,12 @@ header .container .navbar-toggler{
 .star-icon hr{
  width: 15%;
  opacity: 1;
+ 
 }
-
+/* portfolio */
+.general.star-icon{
+    width: 70%;
+}
 
 
 
