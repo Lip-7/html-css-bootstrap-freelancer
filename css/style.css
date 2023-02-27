@@ -12,7 +12,7 @@ main{
 .lip-text-w{
     color: white;
 }
-header, #footer-bot{
+header, #footer-bot, .lip-bg-dark-grey{
     background-color: var(--dark-gray);
 }
 #hero, #about{
