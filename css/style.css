@@ -9,10 +9,13 @@
 main{
     color: white;
 }
+.lip-text-medium{
+    font-size: 1.3rem
+}
 .lip-text-w{
     color: white;
 }
-header, #footer-bot, .lip-bg-dark-grey{
+header, #footer-bot, .lip-bg-dark-grey, #main-nav{
     background-color: var(--dark-gray);
 }
 #hero, #about{
@@ -23,4 +26,18 @@ header, #footer-bot, .lip-bg-dark-grey{
 }
 #footer-top{
     background-color: var(--light-gray);
+}
+
+/* header */
+header .container .navbar-toggler span{
+    filter: invert(1);
+}
+header .container .navbar-toggler{
+    opacity: 1;
+}
+.nav-link:focus, .nav-link:hover {
+    color: lightgrey;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: lightgray;
 }
