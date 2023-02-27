@@ -41,3 +41,28 @@ header .container .navbar-toggler{
 .navbar-brand:focus, .navbar-brand:hover {
     color: lightgray;
 }
+
+/* main */
+
+/* hero */
+.hero-img{
+    width: 30%;
+    min-width: 200px;
+}
+.star-icon{
+    width: 100%;
+}
+.star-icon i{
+    position: relative;
+    top: -5px;
+}
+.star-icon hr{
+ width: 15%;
+ opacity: 1;
+}
+
+
+
+
+
+
