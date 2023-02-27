@@ -1,0 +1,26 @@
+:root{
+    /* Color styles */
+    --dark-gray: #2C3E50;
+    --aqua: #1ABC9C;
+    --white: #FFFFFF;
+    --light-gray: #3A546D;
+    --black: #333333;
+}
+main{
+    color: white;
+}
+.lip-text-w{
+    color: white;
+}
+header, #footer-bot{
+    background-color: var(--dark-gray);
+}
+#hero, #about{
+    background-color: var(--aqua);
+}
+#portfolio, #contact{
+    background-color: var(--white);
+}
+#footer-top{
+    background-color: var(--light-gray);
+}
