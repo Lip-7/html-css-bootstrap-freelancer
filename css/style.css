@@ -15,6 +15,9 @@ main{
 .lip-text-w{
     color: white;
 }
+.lip-text-aqua{
+    color: var(--aqua);
+}
 header, #footer-bot, .lip-bg-dark-grey, #main-nav{
     background-color: var(--dark-gray);
 }
@@ -94,6 +97,12 @@ header .container .navbar-toggler{
 #contact form input,#contact form textarea{
     border: 0px;
     font-weight: 600;
+}
+/* footer */
+/* footer-top */
+.lip-icon{
+    width: 40px;
+    height: 40px;
 }
 
 
